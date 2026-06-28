@@ -26,29 +26,31 @@ export default function App() {
       {/* Main Navigation */}
       <Navbar cart={cart} setCart={setCart} />
 
-      {/* Hero Section with 3D Parallax */}
-      <Hero />
+      <main>
+        {/* Hero Section with 3D Parallax */}
+        <Hero />
 
-      {/* Infinite scrolling slogans banner */}
-      <Marquee />
+        {/* Infinite scrolling slogans banner */}
+        <Marquee />
 
-      {/* App Promo Showcase with floating badges */}
-      <AppPromo />
+        {/* App Promo Showcase with floating badges */}
+        <AppPromo />
 
-      {/* Draggable Product Slider */}
-      <ProductSlider onAddToCart={handleAddToCart} />
+        {/* Draggable Product Slider */}
+        <ProductSlider onAddToCart={handleAddToCart} />
 
-      {/* Cinematic Editorial Cards */}
-      <Editorial />
+        {/* Cinematic Editorial Cards */}
+        <Editorial />
 
-      {/* Interactive and Filterable Product Grid */}
-      <ProductGrid onAddToCart={handleAddToCart} />
+        {/* Interactive and Filterable Product Grid */}
+        <ProductGrid onAddToCart={handleAddToCart} />
 
-      {/* Testimonials and newsletter signup form */}
-      <Lookbook />
+        {/* Testimonials and newsletter signup form */}
+        <Lookbook />
 
-      {/* Contact Section */}
-      <Contact />
+        {/* Contact Section */}
+        <Contact />
+      </main>
 
       {/* Footer info */}
       <Footer />

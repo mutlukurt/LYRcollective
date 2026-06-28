@@ -4,7 +4,6 @@ import { ShoppingCart } from 'lucide-react';
 
 import productFleece from '../assets/product1_fleece.webp';
 import productCartoon from '../assets/product2_cartoon.webp';
-import heroModel from '../assets/hero_model.webp';
 import appModel from '../assets/app_promo_model.webp';
 import lookbookModel from '../assets/lookbook_creative.webp';
 
@@ -149,7 +148,7 @@ export default function ProductGrid({ onAddToCart }) {
                 onClick={() => setFilter(cat)}
                 style={{
                   background: filter === cat ? 'var(--accent-color)' : 'transparent',
-                  color: filter === cat ? '#fff' : 'var(--text-secondary)',
+                  color: filter === cat ? '#000' : 'var(--text-secondary)',
                   border: 'none',
                   padding: '10px 24px',
                   borderRadius: '50px',

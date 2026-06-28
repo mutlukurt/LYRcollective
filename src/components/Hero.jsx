@@ -165,16 +165,16 @@ export default function Hero() {
             {/* Statistics details */}
             <div style={{ display: 'flex', gap: '40px', marginTop: '60px', borderTop: '1px solid var(--border-color)', paddingTop: '40px' }} className="hero-stats">
               <div>
-                <h3 style={{ fontSize: '2rem', color: '#fff', fontWeight: 800 }}>
+                <div style={{ fontSize: '2rem', color: '#fff', fontWeight: 800 }} role="text" aria-label="410 thousand plus members active">
                   <CountUpNumber value={410} suffix="K+" />
-                </h3>
+                </div>
                 <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Members Active</p>
               </div>
               <div style={{ width: '1px', backgroundColor: 'var(--border-color)' }} />
               <div>
-                <h3 style={{ fontSize: '2rem', color: '#fff', fontWeight: 800 }}>
+                <div style={{ fontSize: '2rem', color: '#fff', fontWeight: 800 }} role="text" aria-label="260 plus premium fabrics">
                   <CountUpNumber value={260} suffix="+" />
-                </h3>
+                </div>
                 <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Premium Fabrics</p>
               </div>
             </div>
@@ -241,6 +241,9 @@ export default function Hero() {
               <img 
                 src={heroModel} 
                 alt="LYRCollective Technical Streetwear Model" 
+                width="450"
+                height="563"
+                fetchpriority="high"
                 style={{
                   width: '100%',
                   height: '100%',

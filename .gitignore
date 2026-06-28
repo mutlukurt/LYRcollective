@@ -28,3 +28,6 @@ dist-ssr
 .agents/
 .system_generated/
 scratch/
+
+# Lighthouse Reports
+lighthouse-*.json

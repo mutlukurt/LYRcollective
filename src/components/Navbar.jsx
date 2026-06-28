@@ -4,7 +4,6 @@ import { ShoppingBag, User, Search, Menu, X, Trash2, ArrowRight } from 'lucide-r
 
 import productFleece from '../assets/product1_fleece.webp';
 import productCartoon from '../assets/product2_cartoon.webp';
-import heroModel from '../assets/hero_model.webp';
 import appModel from '../assets/app_promo_model.webp';
 import lookbookModel from '../assets/lookbook_creative.webp';
 import teeBlack from '../assets/tee_black.webp';

@@ -24,9 +24,11 @@ export default function Lookbook() {
 
   return (
     <section 
+      className="lookbook-section"
       style={{
         background: '#050505',
-        overflow: 'hidden'
+        overflow: 'hidden',
+        position: 'relative'
       }}
     >
       {/* Testimonial Split Section */}
@@ -239,7 +241,13 @@ export default function Lookbook() {
                   style={{
                     background: 'none',
                     border: 'none',
-                    color: 'var(--accent-color)'
+                    color: 'var(--accent-color)',
+                    width: '48px',
+                    height: '48px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0
                   }}
                 >
                   <Send size={18} />
@@ -261,25 +269,6 @@ export default function Lookbook() {
 
           </div>
         </div>
-
-        {/* Huge watermarked text in background */}
-        <div style={{
-          position: 'absolute',
-          bottom: '-10px',
-          left: '50%',
-          transform: 'translateX(-50%)',
-          fontSize: '12vw',
-          fontWeight: 800,
-          fontFamily: 'var(--font-heading)',
-          color: 'rgba(255,255,255,0.01)',
-          pointerEvents: 'none',
-          whiteSpace: 'nowrap',
-          textTransform: 'uppercase',
-          zIndex: 1
-        }}>
-          LYRCOLLECTIVE
-        </div>
-
       </div>
 
       <style>{`
@@ -290,6 +279,21 @@ export default function Lookbook() {
           .lookbook-grid > div {
             min-height: 400px !important;
           }
+        }
+        .lookbook-section::after {
+          content: 'LYRCOLLECTIVE';
+          position: absolute;
+          bottom: -10px;
+          left: 50%;
+          transform: translateX(-50%);
+          font-size: 12vw;
+          font-weight: 800;
+          font-family: var(--font-heading);
+          color: rgba(255,255,255,0.01);
+          pointer-events: none;
+          white-space: nowrap;
+          text-transform: uppercase;
+          z-index: 1;
         }
       `}</style>
     </section>
