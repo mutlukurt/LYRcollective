@@ -433,6 +433,21 @@ p, span, a, input, button {
     min-height: 480px !important;
   }
 
+  /* Prevent Hero absolute badges from overflowing viewport on tablets (900px - 1024px) */
+  .hero-image-col .hero-badge-absolute {
+    transform: scale(0.9) !important;
+  }
+  
+  .hero-image-col .hero-badge-absolute:first-of-type {
+    left: 15px !important;
+    bottom: 8% !important;
+  }
+  
+  .hero-image-col .hero-badge-absolute:last-of-type {
+    right: 15px !important;
+    top: 12% !important;
+  }
+
   /* Editorial Card adjustments */
   .editorial-grid > div {
     height: 480px !important;
