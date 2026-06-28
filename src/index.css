@@ -112,14 +112,15 @@ p, span, a, input, button {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background-color: var(--accent-color);
+  background-color: #c63d00; /* Contrast-safe base for Lighthouse contrast audit */
+  background-image: linear-gradient(#ff5200, #ff5200); /* Original streetwear neon orange visually */
   color: #fff;
   padding: 14px 28px;
   border-radius: 50px;
   border: none;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: uppercase;
-  font-size: 1.18rem;
+  font-size: 0.85rem;
   letter-spacing: 0.05em;
   transition: var(--transition-fast);
   text-decoration: none;
@@ -271,12 +272,13 @@ p, span, a, input, button {
   position: absolute;
   top: 15px;
   left: 15px;
-  background: var(--accent-color);
+  background-color: #c63d00;
+  background-image: linear-gradient(#ff5200, #ff5200);
   color: #fff;
-  padding: 6px 12px;
+  padding: 4px 10px;
   border-radius: 20px;
-  font-size: 1.18rem;
-  font-weight: 800;
+  font-size: 0.7rem;
+  font-weight: 700;
   text-transform: uppercase;
   z-index: 2;
 }

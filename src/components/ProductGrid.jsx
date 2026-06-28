@@ -147,13 +147,14 @@ export default function ProductGrid({ onAddToCart }) {
                 className="interactive"
                 onClick={() => setFilter(cat)}
                 style={{
-                  background: filter === cat ? 'var(--accent-color)' : 'transparent',
+                  backgroundColor: filter === cat ? '#c63d00' : 'transparent',
+                  backgroundImage: filter === cat ? 'linear-gradient(#ff5200, #ff5200)' : 'none',
                   color: filter === cat ? '#fff' : 'var(--text-secondary)',
                   border: 'none',
                   padding: '10px 24px',
                   borderRadius: '50px',
-                  fontSize: filter === cat ? '1.18rem' : '0.8rem',
-                  fontWeight: filter === cat ? 800 : 600,
+                  fontSize: '0.8rem',
+                  fontWeight: 600,
                   textTransform: 'uppercase',
                   letterSpacing: '0.05em',
                   transition: 'var(--transition-fast)',
