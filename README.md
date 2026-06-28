@@ -1,10 +1,21 @@
-# LYRCollective ⚡
+# LYRCollective — Streetwear & Techwear Catalog
 
-> **Live Deployment:** [https://ly-rcollective.vercel.app/](https://ly-rcollective.vercel.app/)
+<p align="left">
+  <a href="https://ly-rcollective.vercel.app/">Live Demo</a> ·
+  <a href="#-getting-started">Getting Started</a> ·
+  <a href="#-performance-accessibility--seo-optimizations">Lighthouse Scores</a>
+</p>
+
+[![Live](https://img.shields.io/badge/Live-ly--rcollective.vercel.app-black?style=flat-square&logo=vercel)](https://ly-rcollective.vercel.app/)
+[![Lighthouse Mobile](https://img.shields.io/badge/Lighthouse%20Mobile-93%2F100-success?style=flat-square&logo=lighthouse)](https://ly-rcollective.vercel.app/)
+[![Lighthouse Desktop](https://img.shields.io/badge/Lighthouse%20Desktop-99%2F100-success?style=flat-square&logo=lighthouse)](https://ly-rcollective.vercel.app/)
+[![Performance](https://img.shields.io/badge/Performance-93%2F100-success?style=flat-square)](https://ly-rcollective.vercel.app/)
+[![Accessibility](https://img.shields.io/badge/Accessibility-100%2F100-success?style=flat-square)](https://ly-rcollective.vercel.app/)
+[![SEO](https://img.shields.io/badge/SEO-100%2F100-success?style=flat-square)](https://ly-rcollective.vercel.app/)
 
 An immersive, production-grade e-commerce storefront catalog designed for the Soho, New York-based technical streetwear label **LYRCollective**. 
 
-This web application blends editorial aesthetics with top-tier modern front-end engineering, featuring custom 3D cursor-tracking parallax layers, fluid spring physics, interactive drawers, and **100/100 Lighthouse scores in SEO & Accessibility** with **99 Desktop / 93 Mobile in Performance**.
+This web application blends editorial aesthetics with top-tier modern front-end engineering, featuring custom 3D cursor-tracking parallax layers, fluid spring physics, interactive drawers, and strict **100/100 Lighthouse scores in SEO & Accessibility** with **99 Desktop / 93 Mobile in Performance**.
 
 ---
 
