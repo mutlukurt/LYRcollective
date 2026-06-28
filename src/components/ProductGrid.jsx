@@ -148,12 +148,12 @@ export default function ProductGrid({ onAddToCart }) {
                 onClick={() => setFilter(cat)}
                 style={{
                   background: filter === cat ? 'var(--accent-color)' : 'transparent',
-                  color: filter === cat ? '#000' : 'var(--text-secondary)',
+                  color: filter === cat ? '#fff' : 'var(--text-secondary)',
                   border: 'none',
                   padding: '10px 24px',
                   borderRadius: '50px',
-                  fontSize: '0.8rem',
-                  fontWeight: 600,
+                  fontSize: filter === cat ? '1.18rem' : '0.8rem',
+                  fontWeight: filter === cat ? 800 : 600,
                   textTransform: 'uppercase',
                   letterSpacing: '0.05em',
                   transition: 'var(--transition-fast)',
