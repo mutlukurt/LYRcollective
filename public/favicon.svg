@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Rounded dark background -->
+  <rect width="32" height="32" rx="8" fill="#0d0d0d" />
+  <!-- Monogram L in White -->
+  <path d="M9 8v16h8v-3h-5V8H9z" fill="#ffffff" />
+  <!-- Monogram Y in Neon Orange -->
+  <path d="M21 8l-3.5 6.5V24h3v-9.5l3.5-6.5h-3z" fill="#ff5200" />
+  <!-- Little orange dot on the top right for "Collective" accent -->
+  <circle cx="26" cy="6" r="2.5" fill="#ff5200" />
+</svg>
