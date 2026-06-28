@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useMotionValue, useSpring, useTransform, animate } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
-import heroModel from '../assets/hero_model.webp';
+const heroModel = "/hero_model.webp";
 
 function CountUpNumber({ value, suffix = "" }) {
   const [displayValue, setDisplayValue] = useState(0);

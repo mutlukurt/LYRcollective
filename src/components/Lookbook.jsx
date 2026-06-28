@@ -51,6 +51,7 @@ export default function Lookbook() {
               objectFit: 'cover',
               display: 'block'
             }}
+            loading="lazy"
           />
           <div style={{
             position: 'absolute',

@@ -162,6 +162,7 @@ export default function AppPromo() {
                   height: '100%',
                   objectFit: 'cover'
                 }}
+                loading="lazy"
               />
 
               {/* Internal phone app tags */}

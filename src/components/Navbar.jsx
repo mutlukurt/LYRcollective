@@ -379,7 +379,7 @@ export default function Navbar({ cart, setCart }) {
                     fontSize: '1rem',
                     fontWeight: 600,
                     textTransform: 'uppercase',
-                    padding: '12px 0',
+                    padding: '18px 0',
                     borderBottom: '1px solid rgba(255,255,255,0.03)'
                   }}
                 >

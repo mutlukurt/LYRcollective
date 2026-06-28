@@ -190,6 +190,7 @@ export default function ProductGrid({ onAddToCart }) {
                       src={product.image} 
                       alt={product.title} 
                       className="product-image"
+                      loading="lazy"
                     />
                   </div>
                   

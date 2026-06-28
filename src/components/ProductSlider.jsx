@@ -154,6 +154,7 @@ export default function ProductSlider({ onAddToCart }) {
                     src={product.image} 
                     alt={product.title} 
                     className="product-image"
+                    loading="lazy"
                   />
                 </div>
                 

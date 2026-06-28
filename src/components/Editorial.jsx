@@ -72,6 +72,7 @@ export default function Editorial() {
               }}
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              loading="lazy"
             />
 
             {/* Gradient Overlay */}
@@ -142,6 +143,7 @@ export default function Editorial() {
               }}
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              loading="lazy"
             />
 
             {/* Gradient Overlay */}
