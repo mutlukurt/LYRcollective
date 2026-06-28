@@ -438,13 +438,13 @@ p, span, a, input, button {
     transform: scale(0.9) !important;
   }
   
-  .hero-image-col .hero-badge-absolute:first-of-type {
-    left: 15px !important;
+  .hero-image-col .badge-promo {
+    left: 30px !important;
     bottom: 8% !important;
   }
   
-  .hero-image-col .hero-badge-absolute:last-of-type {
-    right: 15px !important;
+  .hero-image-col .badge-quality {
+    right: 30px !important;
     top: 12% !important;
   }
 

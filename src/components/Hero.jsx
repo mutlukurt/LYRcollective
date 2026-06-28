@@ -260,7 +260,7 @@ export default function Hero() {
 
             {/* Floating Tag Layer: 60% OFF Promotion (Orange Badge) */}
             <motion.div
-              className="glass-panel hero-badge-absolute"
+              className="glass-panel hero-badge-absolute badge-promo"
               style={{
                 position: 'absolute',
                 bottom: '10%',
@@ -294,7 +294,7 @@ export default function Hero() {
 
             {/* Floating Tag Layer: Technical Quality Indicator */}
             <motion.div
-              className="glass-panel hero-badge-absolute"
+              className="glass-panel hero-badge-absolute badge-quality"
               style={{
                 position: 'absolute',
                 top: '15%',
